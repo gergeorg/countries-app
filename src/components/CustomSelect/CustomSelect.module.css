@@ -1,0 +1,20 @@
+.control {
+  width: 200px;
+  font-family: var(--family);
+
+
+
+}
+
+.control > * {
+
+  box-shadow: var(--shadow);
+}
+
+.control * {
+  color: var(--colors-text) !important;
+}
+
+.control > div[id] {
+  background-color: var(--colors-ui-base);
+}
