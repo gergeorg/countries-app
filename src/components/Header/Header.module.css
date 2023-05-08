@@ -1,0 +1,33 @@
+.header {
+  box-shadow: var(--shadow);
+  background-color: var(--colors-ui-base);
+
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+
+}
+
+.title {
+  color: var(--color-text);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-bold);
+  text-decoration: none;
+}
+
+.themeSwitcher {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--color-text);
+  font-size: var(--fs-sm);
+  text-transform: capitalize;
+}
+
+.switcherText {
+  margin-left: 0.75rem;
+}
